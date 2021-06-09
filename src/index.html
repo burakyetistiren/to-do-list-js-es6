@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head> 
+	<meta charset="UTF-8" />
+    <div class="myTitle">
+        <h3>TO DO LIST</h3>
+    </div>
+    <link href="styles/style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+	<div id="app"></div>
+    <div class="searchArea">
+        <form>
+            <label for="listItem">Add an item:</label><br>
+            <input type="text" value="Enter the task" id="listItem" name="listItem" onclick="en.refreshText()"><br>
+        </form> 
+        <button id="addButton" type="button" onclick="en.newItem()">Add</button> 
+    </div>
+    <ul class="list" id="toDoList" style="list-style-type:none">
+        <li class="taskTitle">Your tasks:</li>
+    </ul>
+	<script src="index.js">
+	</script>
+</body>
+
+</html>

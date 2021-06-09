@@ -1,0 +1,54 @@
+.myTitle{
+    height: auto;
+    width: auto;
+    margin: auto;
+    background-image: url("icons/back2.jpg");
+    border: 5px outset cyan;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: xx-large;
+}
+.searchArea{
+    border: 5px outset black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    background-image: url("icons/back3.jpg");
+}
+ul{
+    height: 600px;
+    width: auto;
+    margin: 0;
+      padding: 0;
+    border: 5px outset rgb(230, 255, 1);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-image: url("icons/back1.jpg");
+    
+}
+ul li {
+    width: auto;
+    border: 2px outset rgb(0, 0, 0);
+    cursor: pointer;
+    background: lemonchiffon;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: large;
+    background-size: auto;
+}	
+ul li:hover {
+    background: #ddd;
+}
+.taskTitle{
+    width: auto;
+    text-align: center;
+    font-size: xx-large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    border: rgb(28, 255, 255);
+    cursor: initial;
+    background-image: url("icons/back1.jpg");
+}
+.taskTitle:hover{
+    background-image: url("icons/back1.jpg");
+}
+.list{
+    background-color: rgb(28, 255, 255);
+}	
