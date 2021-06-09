@@ -2,6 +2,7 @@
 <html>
 <head> 
 	<meta charset="UTF-8" />
+    <base href=".">
     <div class="myTitle">
         <h3>TO DO LIST</h3>
     </div>
@@ -13,14 +14,14 @@
     <div class="searchArea">
         <form>
             <label for="listItem">Add an item:</label><br>
-            <input type="text" value="Enter the task" id="listItem" name="listItem" onclick="en.refreshText()"><br>
+            <input type="text" value="Enter the task" id="listItem" name="listItem"><br>
         </form> 
-        <button id="addButton" type="button" onclick="en.newItem()">Add</button> 
+        <button id="addButton" type="button">Add</button> 
     </div>
     <ul class="list" id="toDoList" style="list-style-type:none">
         <li class="taskTitle">Your tasks:</li>
     </ul>
-	<script src="index.js">
+	<script src="index.js" type="module">
 	</script>
 </body>
 
